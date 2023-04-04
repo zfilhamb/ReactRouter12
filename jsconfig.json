@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES2022",
+      "module": "commonjs",
+      "allowSyntheticDefaultImports": false,
+      "baseUrl": "./",
+      "paths": {
+        "@components/*": ["src/components/*"],
+        "@constants/*": ["src/constants/*"],
+        "@pages/*": ["src/pages/*"],
+        "@fetcher/*": ["src/fetcher/*"],
+        "@utils/*": ["src/utils/*"]
+      }
+    },
+    "exclude": ["node_modules", "build"]
+  }
